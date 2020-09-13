@@ -1,23 +1,24 @@
 # Site
-repository: sproogen/resume-theme
+repository: dhruvi29.github.io
 favicon: images/favicon.ico
+darkmode: true
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
+name: Dhruvi Doshi
+# title: Senior Network System Administrator
+email: drdoshi29@gmail.com
 website: www.github.com/sproogen/resume-theme
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  dhruvi29
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: chillwildlife
-linkedin_username: jameswgrant
+instagram_username: dhruvidoshi29
+# linkedin_username: jameswgrant
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 
 # About Section
