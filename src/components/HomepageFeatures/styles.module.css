@@ -9,3 +9,17 @@
   height: 200px;
   width: 200px;
 }
+
+.featureCard {
+  background-color: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  box-shadow: var(--ifm-shadow-lw);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  height: 100%;
+}
+
+.featureCard:hover {
+  box-shadow: var(--ifm-shadow-md);
+  transform: translateY(-2px);
+}

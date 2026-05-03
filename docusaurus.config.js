@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Dhruvi Doshi',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -84,12 +84,13 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Dhruvi Doshi',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
+          {to: '/projects/', label: 'Projects', position:'left'},
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
@@ -97,6 +98,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/star-gazing/', label:'Star Gazing', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

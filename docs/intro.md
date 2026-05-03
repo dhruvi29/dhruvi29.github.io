@@ -1,47 +1,56 @@
----
-sidebar_position: 1
----
+import ProjectCard from './PostCard.js';
 
-# Tutorial Intro
+# Projects
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## C++
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
 
-Get started by **creating a new site**.
+<ProjectCard
+  title="Strategy Backtester"
+  description="Modular backtesting system for trading strategies"
+  link="/docs/projects/strategy-backtester"
+/>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+<ProjectCard
+  title="Pricing Engine"
+  description="Scalable derivatives pricing and risk system"
+  link="/docs/projects/pricing-engine"
+/>
 
-### What you'll need
+<ProjectCard
+  title="Portfolio Optimizer"
+  description="Optimization engine for asset allocation"
+  link="/docs/projects/portfolio-optimizer"
+/>
+<ProjectCard
+  title="Portfolio Optimizer"
+  description="Optimization engine for asset allocation"
+  link="/docs/projects/portfolio-optimizer"
+/>
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+</div>
 
-## Generate a new site
+## Python 
 
-Generate a new Docusaurus site using the **classic template**.
+<div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
 
-The classic template will automatically be added to your project after you run the command:
+<ProjectCard
+  title="Strategy Backtester"
+  description="Modular backtesting system for trading strategies"
+  link="/docs/projects/strategy-backtester"
+/>
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+<ProjectCard
+  title="Pricing Engine"
+  description="Scalable derivatives pricing and risk system"
+  link="/docs/projects/pricing-engine"
+/>
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+<ProjectCard
+  title="Portfolio Optimizer"
+  description="Optimization engine for asset allocation"
+  link="/docs/projects/portfolio-optimizer"
+/>
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+</div>
