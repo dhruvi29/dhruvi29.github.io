@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro');
-
-/* * {
+/* 
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 } */
 
 html,
-body {
+body,
+.body {
 	height: 100%;
 }
 
-.overlay {
+.body {
 	font-size: 110%;
 	color: #ecf0f1;
 	font-family: 'Source Sans Pro', sans-serif;

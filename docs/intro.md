@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 import ProjectCard from './PostCard.js';
 
 # Projects
