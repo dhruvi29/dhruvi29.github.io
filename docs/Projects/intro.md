@@ -1,10 +1,10 @@
 ---
+id: intro
+title: Projects at Glance
 sidebar_position: 1
 ---
 
-import ProjectCard from './PostCard.js';
-
-# Projects
+import ProjectCard from '../components/PostCard.js';
 
 
 ## C++

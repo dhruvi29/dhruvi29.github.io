@@ -1,0 +1,31 @@
+.achievementRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 0;
+  /* border-bottom: 1px solid #e0e0e0; */
+}
+
+.achievementRow:last-child {
+  border-bottom: none;
+}
+
+.rank {
+  flex: 0 0 80px;
+  /* color: #999; */
+}
+
+.description {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+    /* color: #999; */
+}
+
+.year {
+  flex: 0 0 80px;
+  text-align: right;
+  /* color: #999; */
+}
