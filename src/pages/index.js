@@ -5,8 +5,12 @@ import Layout from '@theme/Layout';
 
 export default function Home() {
 
-  return ( <Layout>
+  return ( 
+  <div></div>
+//   <Layout>
 
-</Layout>);
+// </Layout>
+
+);
 
 }

@@ -2,6 +2,8 @@
 id: intro
 title: Projects at Glance
 sidebar_position: 1
+pagination_prev: null
+pagination_next: null
 ---
 
 import ProjectCard from '../components/PostCard.js';
